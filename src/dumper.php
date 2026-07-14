@@ -1,7 +1,7 @@
 <?php
 
 /**
- * does type matter.
+ * does type matter
  */
 if (!defined('TYPE_MATTERS')) {
     define('TYPE_MATTERS', true);
