@@ -123,7 +123,7 @@ class SimpleDumper
     public function clipString($string, $size, $position = 0)
     {
         $utf8 = false;
-        if (function_exists('mb_detect_encoding') && 'UTF-8' == mb_detect_encoding($string)) {
+        if (function_exists('mb_detect_encoding') && 'UTF-8' == mb_detect_encoding((string)$string)) {
             $utf8 = true;
         }
 
